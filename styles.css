@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100&display=swap");
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
 }
 #profile {
-  width: 100%;
   border-radius: 25px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
 }
 .container {
   position: absolute;
@@ -15,9 +19,5 @@ body {
   transform: translate(-50%, -50%);
 }
 #title {
-  text-align: center;
-    color: #fe0000;
-}
-.align-center {
-  text-align: center;
+  color: #fe0000;
 }
